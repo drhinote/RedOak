@@ -1,0 +1,49 @@
+﻿<div layout-gt-sm="row" layout="column">
+    <div flex-gt-sm="30" flex="">
+        <md-toolbar layout="row" class="md-hue-3">
+            <div class="md-toolbar-tools">
+                <span>Devices</span>
+            </div>
+        </md-toolbar>
+        <md-content>
+            <md-list>
+                <md-list-item ng-repeat="Device in Devices">
+                    {{Device.Name}}
+                </md-list-item>
+            </md-list>
+        </md-content>
+
+        <md-divider></md-divider>
+
+        <md-toolbar layout="row" class="md-hue-3">
+            <div class="md-toolbar-tools">
+                <span>Users</span>
+            </div>
+        </md-toolbar>
+        <md-content>
+            <md-list>
+                <md-list-item ng-model="User" ng-repeat="User in Users">
+                    {{User.Name }}
+                </md-list-item>
+            </md-list>
+        </md-content>
+
+    </div>
+
+    <md-divider></md-divider>
+
+    <div flex-gt-sm="70" flex="">
+        <md-toolbar layout="row" class="md-hue-3">
+            <div class="md-toolbar-tools">
+                <span>Tests</span>
+            </div>
+        </md-toolbar>
+        <md-content style="height:100%">
+            <md-list>
+                <md-list-item ng-model="Test" ng-repeat="Test in Tests">
+                    <label><md-button ng-click="openReport(Test.Id, Test.CompanyId)">{{ Test.UnixTimeStamp }} </md-button></label> <label>{{ Test.UuId }}</label>  <label>{{ Test.OpId }}</label> <label>{{ Test.TesterName }}</label> <label>{{ Test.TimeString }}</label>
+                </md-list-item>
+            </md-list>
+        </md-content>
+    </div>
+</div>

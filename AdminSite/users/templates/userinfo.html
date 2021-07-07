@@ -1,0 +1,34 @@
+﻿<div layout-gt-sm="row" layout="column">
+    <div flex-gt-sm="30" flex="">
+        <md-toolbar layout="row" class="md-hue-3">
+            <div class="md-toolbar-tools">
+                <span>Companies:</span>
+            </div>
+        </md-toolbar>
+        <md-content>
+            <md-list style="vertical-align:top">
+                <md-list-item ng-model="Test" ng-repeat="Company in Companies" style="height:100%">
+                    <md-list-item><b>{{Company.Name}}</b><br /></md-list-item>
+                    <p>{{Company.Address}} {{Company.City}}, {{Company.State}} {{Company.Zip}} {{Company.Contact}} {{Company.Phone}} {{Company.Email}}</p>
+                </md-list-item>
+            </md-list>
+        </md-content>
+    </div>
+
+    <md-divider style="height:100%"></md-divider>
+
+    <div flex-gt-sm="70" flex="">
+        <md-toolbar layout="row" class="md-hue-3">
+            <div class="md-toolbar-tools">
+                <span>Tests</span>
+            </div>
+        </md-toolbar>
+        <md-content>
+            <md-list>
+                <md-list-item ng-model="Test" ng-repeat="Test in Tests">
+                    <label><md-button ng-click="openReport(Test.UuId, Test.UnixTimeStamp)">{{ Test.UnixTimeStamp }} </md-button></label> <label>{{ Test.UuId }}</label>  <label>{{ Test.OpId }}</label> <label>{{ Test.CompanyName }}</label> <label>{{ Test.TimeString }}</label>
+                </md-list-item>
+            </md-list>
+        </md-content>
+    </div>
+</div>

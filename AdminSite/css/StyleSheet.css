@@ -1,0 +1,156 @@
+﻿md-list-item, md-list-item .md-list-item-inner {
+    min-height: 20px;
+    height: 25px;
+}
+
+.selectdemoSelectHeader {
+    /* Please note: All these selectors are only applied to children of elements with the 'selectdemoSelectHeader' class */
+    border: none;
+}
+
+.selectdemoSelectHeader .demo-header-searchbox {
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+}
+
+.selectdemoSelectHeader .demo-select-header {
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.1), 0 0 0 0 rgba(0, 0, 0, 0.14), 0 0 0 0 rgba(0, 0, 0, 0.12);
+    padding-left: 10.667px;
+    height: 48px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+.companiesHeader {
+    width:100%;
+}
+
+label {
+    font-weight:normal;
+    color: black;
+    display: block;
+    padding: 5.5px;
+    margin: 5px;
+    min-width:150px;
+}
+
+input {
+    display: block;
+    padding: 3px;
+    margin: 3px;
+    min-width: 200px;
+}
+
+.selectdemoSelectHeader md-content._md {
+    max-height: 240px;
+}
+
+.dimGrey {
+    background: dimgray;
+}
+
+.gray {
+    background: #f5f5f5;
+}
+
+.green {
+    background: #b9f6ca;
+}
+
+.yellow {
+    background: #ffff8d;
+}
+
+.blue {
+    background: #84ffff;
+}
+
+.purple {
+    background: #b388ff;
+}
+
+.red {
+    background: #ff8a80;
+}
+
+.roiLightBlue md-toolbar {
+    background: rgb(185,205,229);
+}
+
+.roiDarkBlue md-toolbar {
+    background: rgb(44,93,152);
+}
+
+.roiSilver md-toolbar {
+    background: rgb(217,217,217);
+}
+
+.roiLightGreen md-toolbar {
+    background: #00e600;
+}
+
+.roiYellow {
+    background: #ffff00;
+}
+
+.roiRed {
+    background: #ff0000;
+}
+
+.gridListdemoBasicUsage md-grid-list {
+    margin: 8px;
+}
+
+.gridListdemoBasicUsage .gray {
+    background: #f5f5f5;
+}
+
+.gridListdemoBasicUsage .green {
+    background: #b9f6ca;
+}
+
+.gridListdemoBasicUsage .yellow {
+    background: #ffff8d;
+}
+
+.gridListdemoBasicUsage .blue {
+    background: #84ffff;
+}
+
+.gridListdemoBasicUsage .purple {
+    background: #b388ff;
+}
+
+.gridListdemoBasicUsage .red {
+    background: #ff8a80;
+}
+
+.toolbardemoBasicUsage md-toolbar .md-button.md-icon-button .favorite-icon {
+    fill: #DE3641;
+}
+
+.toolbardemoBasicUsage md-toolbar md-toolbar-filler {
+    background-color: #e0e0e0;
+}
+
+.toolbardemoBasicUsage md-toolbar md-toolbar-filler #filler-icon {
+    fill: #4C9EF1;
+}
+
+.contentdemoBasicUsage div.demo-content {
+    height: 450px;
+}
+
+.contentdemoBasicUsage div[ng-controller] {
+    height: 100%;
+    padding-bottom: 15px;
+}
+
+.contentdemoBasicUsage md-content {
+    padding: 24px;
+}

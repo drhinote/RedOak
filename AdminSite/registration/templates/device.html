@@ -1,0 +1,14 @@
+﻿<p />Device Name: {{settings.machine}}
+<p />Company: {{settings.company}}
+
+<div flex-gt-sm="90" flex="" layout="column">
+
+    <br />
+    <md-input-container>
+        <label>Company</label>
+        <md-select placeholder="Select company" ng-model="company.Id" style="width: 200px;">
+            <md-option ng-value="company.Id" ng-repeat="company in companies">{{company.Name}}</md-option>
+        </md-select>
+    </md-input-container>
+</div>
+<md-button class="md-raised" ng-click="addDevice()">Finalize Registration</md-button>

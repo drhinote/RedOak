@@ -1,0 +1,15 @@
+Test.jar 86
+rxtxSerial.dll 1
+img/bg.png 1
+img/demo.png 1
+img/demor.png 1
+img/history_bg.png 1
+img/left.png 1
+img/logo.png 0
+img/pt_bg.png 1
+img/pt_bg_gray.png 1
+img/release.png 1
+img/right.png 1
+img/right_t.png 1
+img/squeeze.png 1
+img/third1.png 1

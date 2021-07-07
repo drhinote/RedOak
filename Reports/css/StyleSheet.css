@@ -1,0 +1,147 @@
+﻿.pagebreakbefore {
+    page-break-before: always;
+}
+
+.pagebreakafter {
+    page-break-before: always;
+}
+
+.header-style1 {
+    background-color: rgb(185,205,229);
+    border-radius: 3px;
+    border-width: 3px;
+    border-style: solid;
+    border-bottom-color: #aaa;
+    border-right-color: #aaa;
+    border-top-color: #ddd;
+    border-left-color: #ddd;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman';
+    vertical-align: middle;
+    width: 900px;
+    height: 50px;
+}
+
+.header-style2 {
+    border-radius: 3px;
+    border-width: 3px;
+    border-style: solid;
+    border-bottom-color: #aaa;
+    border-right-color: #aaa;
+    border-top-color: #ddd;
+    border-left-color: #ddd;
+    text-align: center;
+    width: 900px;
+    height: 10px;
+    background-color: rgb(217,217,217);
+}
+
+.header-style3 {
+    background-color: rgb(44,93,152);
+    border-radius: 3px;
+    border-width: 3px;
+    border-style: solid;
+    border-bottom-color: #aaa;
+    border-right-color: #aaa;
+    border-top-color: #ddd;
+    border-left-color: #ddd;
+    text-align: center;
+    width: 900px;
+    height: 10px;
+}
+
+.footer-style1 {
+    border-top: 3px solid #ddd;
+    border-left: 3px solid #ddd;
+    border-right: 3px solid #aaa;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    vertical-align: middle;
+    background-color: rgb(185,205,229);
+    width: 900px;
+    height: 30px;
+}
+
+.footer-style2 {
+    border-left: 3px solid #ddd;
+    border-right: 3px solid #aaa;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    vertical-align: middle;
+    background-color: rgb(185,205,229);
+    width: 900px;
+    height: 20px;
+}
+
+.footer-style3 {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-left: 3px solid #ddd;
+    border-right: 3px solid #aaa;
+    border-bottom: 3px solid #aaa;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    vertical-align: middle;
+    width: 900px;
+    height: 20px;
+    background-color: rgb(185,205,229);
+}
+
+.roiLightBlue {
+    background: rgb(185,205,229);
+}
+
+.roiDarkBlue {
+    background: rgb(44,93,152);
+}
+
+.roiSilver {
+    background: rgb(217,217,217);
+}
+
+.roiLightGreen {
+    background: #00e600;
+}
+
+.roiYellow {
+    background: #ffff00;
+}
+
+.roiRed {
+    background: #ff0000;
+}
+
+.gridListdemoBasicUsage md-grid-list {
+    margin: 8px;
+}
+
+.gridListdemoBasicUsage .gray {
+    background: #f5f5f5;
+}
+
+.gridListdemoBasicUsage .green {
+    background: #b9f6ca;
+}
+
+.gridListdemoBasicUsage .yellow {
+    background: #ffff8d;
+}
+
+.gridListdemoBasicUsage .blue {
+    background: #84ffff;
+}
+
+.gridListdemoBasicUsage .purple {
+    background: #b388ff;
+}
+
+.gridListdemoBasicUsage .red {
+    background: #ff8a80;
+}

@@ -1,0 +1,13 @@
+﻿<div>
+    <md-input-container>
+        <label>User</label>
+        <md-select placeholder="Select company" ng-model="User.CompanyId" style="min-width: 200px;">
+            <md-option ng-value="Company.Id" ng-repeat="Company in Companies track by Company.Id">{{Company.Name}}</md-option>
+        </md-select>
+    </md-input-container>
+</div>
+<div>
+    <input type="text" placeholder="username" ng-model="User.Name" />
+    <input type="password" placeholder="password" ng-model="User.Password" />
+</div>
+<md-button class="md-raised" ng-click="addOrUpdateUser()">Save</md-button>

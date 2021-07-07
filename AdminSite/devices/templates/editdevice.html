@@ -1,0 +1,11 @@
+﻿<div flex-gt-sm="90" flex="" layout="column">
+    <input type="text" placeholder="Name" ng-model="Device.Name">
+    <br />
+    <md-input-container>
+        <label>Company</label>
+        <md-select placeholder="Select company" ng-model="Company.Id" ng-change="updateCompany(Company)" style="width: 200px;">
+            <md-option ng-value="Company.Id" ng-repeat="Company in Companies">{{Company.Name}}</md-option>
+        </md-select>
+    </md-input-container>
+</div>
+<md-button class="md-raised" ng-click="updateDevice()">Save</md-button>
